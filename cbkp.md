@@ -1,4 +1,4 @@
-'''bash
+```bash
 
 # Configuration de la base de données
 
@@ -49,4 +49,4 @@ fi
 # Nettoyez les sauvegardes locales plus anciennes si nécessaire (par exemple, conservez les 7 derniers jours)
 
 find $LOCAL_BACKUP_DIR -type f -name "\*.sql" -mtime +7 -exec rm {} \;
-'''
+```
